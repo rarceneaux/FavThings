@@ -6,7 +6,9 @@ namespace FavThings
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var code = new Code("AWS", "Jquery");
+            code.LoadSite();
+            code.ClearDom();
         }
     }
 }
